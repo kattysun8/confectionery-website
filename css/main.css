@@ -17,7 +17,7 @@ a {
   padding-top: 50%;
 }
 
-h1 {
+h1, h2, h3 {
   font-family: 'Dancing Script', cursive;
 }
 
@@ -55,6 +55,20 @@ header {
   border-color: #794431;
 }
 
+.shop {
+  border-bottom: 3px solid #8e4a32;
+  border-top: 3px solid #8e4a32;
+  color: #fff;
+}
+
+.card {
+  background-color: #8e4a32;
+  padding: .5em;
+}
+
+.card:hover {
+  background-color: #663300;
+}
 @media only screen and (min-width: 60em) {
 
   .search-label {
