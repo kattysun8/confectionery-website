@@ -17,6 +17,10 @@ a {
   padding-top: 50%;
 }
 
+h1 {
+  font-family: 'Dancing Script', cursive;
+}
+
 header {
   background-color: #fff;
   border-bottom: 3px solid #8e4a32;
