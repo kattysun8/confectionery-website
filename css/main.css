@@ -25,7 +25,7 @@ a {
 }
 
 h1, h2, h3 {
-  font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
 }
 
 header {
@@ -73,7 +73,6 @@ header {
 
 figcaption {
   color: #fff;
-  font-weight: 400;
 }
 
 .card {
