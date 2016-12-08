@@ -16,10 +16,12 @@ main {
 }
 
 a {
-  border-bottom: .15em solid currentColor;
-
   color: #2e1b13;
   text-decoration: none;
+}
+
+form {
+  color: #fff;
 }
 
 .embed-2by1, .embed--2by1 {
@@ -31,9 +33,20 @@ h1, h2, h3 {
 }
 
 header {
-  background-color: #663300;
+  background-color: #630;
   border-bottom: 3px solid #8e4a32;
   border-top: 3px solid #8e4a32;
+}
+
+.nav {
+  color: #fff;
+  text-decoration: none;
+  border: 0;
+}
+
+.nav-black {
+  text-decoration: none;
+  border: 0;
 }
 
 .footer {
@@ -58,6 +71,7 @@ header {
 
 figcaption {
   color: #fff;
+  font-weight: 400;
 }
 
 .card {
@@ -67,7 +81,7 @@ figcaption {
 }
 
 .card:hover {
-  background-color: #663300;
+  background-color: #630;
   color: #fff;
 }
 
