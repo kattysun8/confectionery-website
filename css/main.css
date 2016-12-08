@@ -20,10 +20,6 @@ a {
   text-decoration: none;
 }
 
-form {
-  color: #fff;
-}
-
 .embed-2by1, .embed--2by1 {
   padding-top: 50%;
 }
@@ -88,6 +84,7 @@ figcaption {
 .btn {
   border: 0;
   background-color: #fff;
+  margin: 0;
 }
 
 .card:hover .btn {

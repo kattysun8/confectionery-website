@@ -22,10 +22,10 @@
         </ul>
       </nav>
     </div>
-    <form class="unit xs-1 s-1 m-1-2 l-1-2 push-0 pad-t-1-2 pad-b-1-2">
+    <form class="unit xs-1 s-1 m-1-2 l-1-2 push-0 pad-t-1-2 pad-b-1-2" action="https://formspree.io/sunt0005@algonquinlive.com" method="POST">
       <div class="grid grid-middle">
         <div class="unit xs-1 s-1 m-1 l-1-2 gutter-1-2">
-          <input class="search-input" type="search" id="search">
+          <input class="search-input" type="search" id="top-search">
         </div>
         <div class="unit xs-1 s-1 m-1 l-1-4 gutter-1-2 pad-t-1-2 pad-b-1-2">
           <button class="search-btn btn w-1" type="submit">Find</button>
@@ -129,15 +129,32 @@
 
     <section id="points">
       <h2 class="text-center">Register and Earn Points!</h2>
+
       <form class="unit xs-1 s-1 m-1 push-0 pad-t-1-2 pad-b-1-2">
-        <div class="grid grid-middle">
-          <div class="unit xs-1 s-1 m-1 l-1-2 gutter-1-2">
-            <input class="search-input" type="search">
+        <fieldset class="push-1-2">
+          <legend class="gutter normal italic giga push-1-2">Personal details</legend>
+          <div class="grid">
+
+            <div class="unit xs-1 s-1 m-1 l-1-2 xl-2 push pad-t-1-4 gutter">
+              <label for="name">Name</label>
+              <input id="name" name="name">
+            </div>
+
+            <div class="unit xs-1 s-1 m-1 l-1-2 xl-2 push pad-t-1-4 gutter">
+              <label for="email">Email</label>
+              <input id="email" name="email">
+            </div>
+
+            <div class="unit xs-1 s-1 m-1 l-1-2 gutter pad-t-1-4">
+              <input class="search-input" type="search" id="bottom-search">
+            </div>
+
+            <div class="unit xs-1 s-1 m-1 l-1-4 gutter pad-t-1-2 pad-b-1-2">
+              <button class="search-btn btn w-1" type="submit">Find</button>
+            </div>
+
           </div>
-          <div class="unit xs-1 s-1 m-1 l-1-4 gutter-1-2 pad-t-1-2 pad-b-1-2">
-            <button class="search-btn btn w-1" type="submit">Find</button>
-          </div>
-        </div>
+        </fieldset>
       </form>
     </section>
 
