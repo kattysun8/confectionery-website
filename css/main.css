@@ -38,6 +38,12 @@ header {
   color: #fff;
   text-decoration: none;
   border: 0;
+  padding: 1em;
+}
+
+.nav:hover {
+  background-color: #2e1b13;
+  padding: 1em;
 }
 
 .nav-black {
