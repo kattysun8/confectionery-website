@@ -26,6 +26,7 @@ a {
 
 h1, h2, h3 {
   font-family: "Dancing Script", cursive;
+  margin: 0;
 }
 
 header {

@@ -12,9 +12,14 @@
 </head>
 <body class="max-length">
 
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
+
   <header class="grid grid-middle pad-t pad-b">
     <div class="unit xs-1 s-1 m-1-2 l-1-2 milli gutter-1-2 pad-t pad-b">
-      <nav>
+      <nav role="navigation" id="nav">
         <ul class="list-group-inline push-0">
           <li><a class="nav" href="#about">About Us</a></li>
           <li><a class="nav" href="#gallery">Gallery</a></li>
@@ -46,7 +51,7 @@
     </div>
   </header>
 
-  <main>
+  <main role="main" id="main">
     <div id="about" class="text-center">
       <h2 class="island zetta">About Us</h2>
       <p class="island micro">Our chocolate is made from the best cocoa beans, harvested using sustainable practices and participating in fair trade. Taste and enjoy!</p>
