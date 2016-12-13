@@ -5,7 +5,7 @@ html {
 body {
   background-color: #bea586;
   background-image: url("../images/icon.svg");
-  background-size: 192px;
+  background-size: 384px;
   background-position: left top;
   background-repeat: repeat;
   margin: 0;
@@ -77,13 +77,13 @@ figcaption {
 }
 
 .card {
-  background-color: #8e4a32;
+  background-color: #630;
   padding: .5em;
   border: 0;
 }
 
 .card:hover {
-  background-color: #630;
+  background-color: #8e4a32;
   color: #fff;
 }
 
